@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 openai.api_key = os.environ.get('openai_api_key')
+import PySimpleGUI as sg
 from bs4 import BeautifulSoup
 
 # soup = BeautifulSoup(html, "html.parser")
@@ -22,10 +23,17 @@ print('Click')
 WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, """//*[@id="modal"]/div[1]/div[1]/div/div[3]/div[1]/button"""))).click()
 driver.execute_script("window.scrollTo(0, 2080)")
 
-sleep(4)
+"""
+
+"""
+result_text = "Result:\n"
+
+# sleep(4)
 print('find')
 for i in range(1, 4):
     review_xpath = """//*[@id="main"]/div/div[2]/div[2]/div/div[3]/div[2]/div[1]/div[2]/div/div[3]/div[1]/div["""+str(i)+"""]/div/div[@class = 'shopee-product-rating__content']"""
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, review_xpath)))
     # print(review_xpath)
     review_obj = driver.find_element(By.XPATH, review_xpath)
     print(review_obj.text)
@@ -53,7 +61,16 @@ for i in range(1, 4):
         stop=["###", "\n"]
     )
     print('Sentiment:'+response.choices[0].text)
+    result_text = f"{result_text} Review {i}\n {review_obj.text}\n Sentiment: {response.choices[0].text}\n"
+print(result_text)
 
+layout = [[sg.Text(result_text)]], [sg.Button("Ok")]
+window = sg.Window("Shopee Scrapper", layout, layout,size=(720, 252))
+while True:
+    event, values = window.read()
+    if event == "Ok" or event == sg.WIN_CLOSED:
+        break
+window.close()
 
 sleep(1)
 next_buttton = driver.find_element(By.XPATH, """//*[@id="main"]/div/div[2]/div[2]/div/div[3]/div[2]/div[1]/div[2]/div/div[3]/div[2]/button[@class = 'shopee-button-solid shopee-button-solid--primary ']/following-sibling::button""")
