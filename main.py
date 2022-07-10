@@ -77,7 +77,7 @@ print('start scrapping')
 
 for i in range(1, 4):
     review_xpath = "//*[@id=\"main\"]/div/div[2]/div[2]/div/div[3]/div[2]/div[1]/div[2]/div/div[3]/div[1]/div["+str(i)+"]/div/div[@class = 'shopee-product-rating__content']"
-    WebDriverWait(driver, 10).until(
+    WebDriverWait(driver, 20).until(
         EC.presence_of_element_located((By.XPATH, review_xpath)))
     review_obj = driver.find_element(By.XPATH, review_xpath)
     print(review_obj.text)

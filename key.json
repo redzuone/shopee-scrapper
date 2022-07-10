@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shop-scrapper",
+  "private_key_id": "e2d446645d9be93073a3ab2dbccc08c0209c1cca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCxL0TfeGtuPAyU\n3wyktZ+mSTvCF+XC/VFyvUwF/E9WTJKXEcJvUhhD4eAWo0XJLdQZU+N+gq5kzGY3\nY2BuLbOVz6DO7PeQZ/3XgBJNVZrqi0hhIMQeU/8tKmgKf7BPXev1OHYMnAGtaKHj\n5T4j1o9uay5JwwIcb/RwJ/Uwdqrt/tFeCSaezc4BADTUuCiPf9ayvJL0BKctzwzG\nNZlDx0HLanE6JL/Hy7UecyRwSnGXUtvGyjKF/GbtW2Jlmh8fM/LmrpHV+lzBVt2A\nZ3yNJjtYbu6ba3MwDGn/3toJ0ovIJMThe+9lF5A9WkGheLtptAVCOhIPzwLcT6BJ\nNngXW2llAgMBAAECggEAONnV224j6kbSMqIuyFqOUyiESA6q5hmpnIsobXM7cZE4\nJ8jG/jj1GDLNV/YjWh2eRFIqWFlN44HB+lukgTWgvZzVGA/ojykOxaqONMoW3tK5\n8pA03RZOdgt5PoUh6RVVtGTdW8Zis2UzLJBNk+owM1mojHpJnx487A+mGFq7FYl3\n1tTtlyyzLE6QLmfW7T5mDWfNqpCoK2UwmKksdp3K/apecdbeJOkULSynkq9GRGnY\nhUslizLNTYYHiCcKpdAUTT+SQih981hRZ8Nsv7bkCmx0EwQOYK7xcPqc4yYPJ5Cv\nwY+x9hU1hL7t9DMRzozmdd2j5cPgnkzoA8AttTNvMQKBgQDuD8iod1w4eAQyW/Ld\n7KvMBThlf3jPYTkwmYNlQU766AXEEF8iWKOH59+b+kzPNFl7gnt4tUM8UDq4rLpI\nVyWHYRzX40j9S2XaC5wOk9ot7qPZ29pob2s6CpDNHoPmK9LJQEuzDKveCli6+DUI\nGMnPeFFbOnJQGRN7F0i3tPMOVwKBgQC+iSp6A3o5PfhNgINjaNzdS2sDNMYNHyiu\neWvGDe9SSjmHkQrQRsvualTA6KMxRHCTKmefyFfdIgeesKl1hfD7NdqVQhWKjzx8\nE+CnvSkjv8k/tJuwjoEebaJrayZMO13TFh3VhkEwQH1UXilIQqmTsQYOl7bnnvxf\nbbnrj9P4owKBgQDC5os6WZZX6PJOpHbe+D/ipbd5aXZoGknvHw+zG1flFYZ68Yhh\nnz4rK0wn8DFoRoyoELizp3snauvYfBl61lY0Uu6BVWRRc6QscurOCIBMsJ7W4ycZ\n73ZTK4lHVZ9ZFzHYcFpJeatP+xqP4FvSiDDZOcEptl0WdKE9Wl+/f1aquwKBgAZj\nKMZgWXeTyUAn37+0YzsT7Sl1WnJUKhP3RBKmovA6RsVxqlAjH3EFpYO2CMp9Bd0Z\nHdIwcCmcm27Jc1TaQaLaQlKgnYJAnQF31R8qazeklUWKc3GuxUtU144MUINbtiB+\nbE+dKZBJiSoL4gxnF7I4zAAvO9V18fXtAr+P2cZLAoGBAII3Wdd0v/uQpoMriAIh\ngmu5hvy/UxozHGxp5OOsJtjrYgEnre0VIECS2s3Jv8jBR5LTSkN4KiSTd0oKphVM\n3Smz7bgx3QEnFL5blBBEO4KC5wihzQzP9dDdesMt5Eiuu6BAA5LDdX6aLaZozass\nYwspoSnwKrT1w3eAeBloStR4\n-----END PRIVATE KEY-----\n",
+  "client_email": "my-natlang-sa@shop-scrapper.iam.gserviceaccount.com",
+  "client_id": "108414287004928662424",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-natlang-sa%40shop-scrapper.iam.gserviceaccount.com"
+}
